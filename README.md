@@ -62,6 +62,9 @@
         dotnet add package Quartz --version 3.14.0
         dotnet add package Quartz.Extensions.Hosting --version 3.14.0
 
+        rbmq
+        dotnet add package RabbitMQ.Client --version 6.8.1
+
     - Utils
         + Localization
             dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection --version 12.0.0
